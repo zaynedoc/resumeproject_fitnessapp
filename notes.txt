@@ -1,0 +1,20 @@
+Notes for debugging/running the app:
+
+How to start the app:
+    1. type in terminal "cd Workouts"
+    2. type in terminal "npx expo start --tunnel"
+    3. scan QR code from terminal on Expo Go app
+        - if app doesn't load, clear Expo Go's cache
+    4. Ctrcl + C to stop server
+    Reminder: the current terminal is now used as a menu;
+              create a new bash terminal to run/download packages
+
+While running the app:
+    To return to menu in terminal, press C
+        - Might need in case of console.log statements clogging terminal
+
+Directory Elaboration:
+
+src: code's main source file, parent of core code/pages/etc.
+    app: 
+    components: functions that are to be imported into app.json, for decluttering code
