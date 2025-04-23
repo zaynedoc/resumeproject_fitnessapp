@@ -13,8 +13,7 @@ While running the app:
     To return to menu in terminal, press C
         - Might need in case of console.log statements clogging terminal
 
-Directory Elaboration:
-
-src: code's main source file, parent of core code/pages/etc.
-    app: 
-    components: functions that are to be imported into app.json, for decluttering code
+File Directory Elaboration:
+    src: code's main source file, parent of core code/pages/etc.
+        app: webpage directory for creating new tabs/windows on the app
+        components: functions that are to be imported into app.json, for decluttering code

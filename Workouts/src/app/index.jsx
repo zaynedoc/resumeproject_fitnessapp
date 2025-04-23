@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, FlatList, ProgressBarAndroidComponent } from 'react-native';
 import exercises from '../../assets/data/exercises.json';               // Importing exercises data from template of tutorial
-import ExerciseListItem from '../../src/components/ExerciseListItem';   // Importing the ExerciseListItem component to render each exercise in the list
+import ExerciseListItem from '../components/ExerciseListItem';   // Importing the ExerciseListItem component to render each exercise in the list
 
 export default function App() {  
   return (
@@ -21,7 +21,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'ghostwhite',
     justifyContent: 'center',
     padding: 5,
   },
